@@ -1,7 +1,4 @@
 import './App.css';
-
-// import {Switch} from "antd";
-// import {Switch, Redirect, Route} from "react-router-dom"
 import LanguageChange from "./component/LanguageChange";
 import Home from "./component/Home";
 import {useEffect, useState} from "react";
@@ -21,11 +18,6 @@ const App = (props) => {
     return (
         <div className={"body"}>
             <LanguageChange/>
-            {/*{isLogin ? <Redirect to={"/dashboard"}/> : <Redirect to={"/auth"}/>}*/}
-            {/*<Switch>*/}
-            {/*    <Route path={"/dashboard"} component={Dashboard}/>*/}
-            {/*    <Route path={"/auth"} component={Login}/>*/}
-            {/*</Switch>*/}
             <Home/>
         </div>
     );
